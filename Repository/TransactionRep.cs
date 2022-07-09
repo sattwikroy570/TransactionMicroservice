@@ -12,9 +12,9 @@ namespace TransactionMicroservice.Repository
 {
     public class TransactionRep : ITransactionRep
     {
-        Uri baseAddress = new Uri("http://52.159.81.113/api");
+        Uri baseAddress = new Uri("http://20.241.72.11/api");
 
-        Uri baseAddress2 = new Uri("http://20.221.216.116/api");
+        Uri baseAddress2 = new Uri("http://52.159.81.113/api");
         //Port No.
         HttpClient client, client2;
 
