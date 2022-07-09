@@ -22,8 +22,12 @@ namespace TransactionMicroservice.Controllers
     {
        
         ITransactionRep db;
+
+        readonly log4net.ILog _log4net;
         public TransactionController(ITransactionRep _db)
         {
+
+            _log4net = log4net.LogManager.GetLogger(typeof(AccountController));
             db = _db;
         }
         [HttpPost]
@@ -33,6 +37,7 @@ namespace TransactionMicroservice.Controllers
             TokenInfo.StringToken = Request.Headers["Authorization"];
             try
             {
+                _log4net.Info("Deposit"); 
                 var ob = db.deposit(value);
                 if(ob==null)
                 {
@@ -42,6 +47,8 @@ namespace TransactionMicroservice.Controllers
             }
             catch(Exception)
             {
+
+                _log4net.Info(e);
                 return BadRequest();
             }
         }

@@ -65,6 +65,8 @@ namespace TransactionMicroservice
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
             });
 
+            loggerFactory.AddLog4Net();
+
             app.UseHttpsRedirection();
 
             app.UseAuthentication();
