@@ -27,7 +27,7 @@ namespace TransactionMicroservice.Controllers
         public TransactionController(ITransactionRep _db)
         {
 
-            _log4net = log4net.LogManager.GetLogger(typeof(AccountController));
+            _log4net = log4net.LogManager.GetLogger(typeof(TransactionController));
             db = _db;
         }
         [HttpPost]
@@ -45,7 +45,7 @@ namespace TransactionMicroservice.Controllers
                 }
                 return Ok(ob);
             }
-            catch(Exception)
+            catch(Exception e)
             {
 
                 _log4net.Info(e);

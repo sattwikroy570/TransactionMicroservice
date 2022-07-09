@@ -334,3 +334,12 @@ D:\Work & Study\MFPE\TransactionMicroservice\bin\Debug\netcoreapp3.1\Microsoft.I
 D:\Work & Study\MFPE\TransactionMicroservice\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 D:\Work & Study\MFPE\TransactionMicroservice\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
 D:\Work & Study\MFPE\TransactionMicroservice\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\Work & Study\MFPE - CLoud\TransactionMicroservice\obj\Debug\netcoreapp3.1\TransactionMicroservice.csproj.AssemblyReference.cache
+D:\Work & Study\MFPE - CLoud\TransactionMicroservice\obj\Debug\netcoreapp3.1\TransactionMicroservice.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work & Study\MFPE - CLoud\TransactionMicroservice\obj\Debug\netcoreapp3.1\TransactionMicroservice.AssemblyInfoInputs.cache
+D:\Work & Study\MFPE - CLoud\TransactionMicroservice\obj\Debug\netcoreapp3.1\TransactionMicroservice.AssemblyInfo.cs
+D:\Work & Study\MFPE - CLoud\TransactionMicroservice\obj\Debug\netcoreapp3.1\TransactionMicroservice.csproj.CoreCompileInputs.cache
+D:\Work & Study\MFPE - CLoud\TransactionMicroservice\obj\Debug\netcoreapp3.1\TransactionMicroservice.MvcApplicationPartsAssemblyInfo.cs
+D:\Work & Study\MFPE - CLoud\TransactionMicroservice\obj\Debug\netcoreapp3.1\TransactionMicroservice.MvcApplicationPartsAssemblyInfo.cache
+D:\Work & Study\MFPE - CLoud\TransactionMicroservice\obj\Debug\netcoreapp3.1\TransactionMicroservice.dll
+D:\Work & Study\MFPE - CLoud\TransactionMicroservice\obj\Debug\netcoreapp3.1\TransactionMicroservice.pdb
